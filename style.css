@@ -1,0 +1,109 @@
+.container {
+  width: 1000px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+img{
+  width: 200px;
+  border-radius: 100%
+}
+
+body {
+  font-family: 'Georgia', serif;
+  font-weight: 200;
+  color: black;
+  background-color: antiquewhite;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+h1 {
+  font-family: 'Garamond', sans-serif;
+  font-size: 60px;
+  line-height: 1.2;  /* Changed from 12px to relative unit */
+  letter-spacing: normal;  /* Removed negative spacing */
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 12px;
+  letter-spacing: -0.05em;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  font-size: 45px;
+  margin: 0 10px;
+}
+
+.list-inline li a {
+  color: #07441f;
+}
+
+.list-inline li a:hover {
+  color:  #262952;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(20, 72, 90);
+}
+
+a:hover {
+  color: #262952;
+}
+
+div {
+  background: white;                         /* White background */
+  padding: 30px;                               /* Internal space */
+  border-radius: 4px;                          /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  width: 500px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#btn-green {
+  text-decoration: none;
+  background-color: #07441f;
+  color: #fff;
+  padding: 8px 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#btn-green:hover {
+  background-color: #262952;
+}
+
+.text-center {
+  text-align: center;
+}
